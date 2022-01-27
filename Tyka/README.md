@@ -10,29 +10,22 @@
 <!-- Badges -->
 
 <p>
-    <img src="https://img.shields.io/badge/Swift-5.5-F06C33.svg" />
-    <img src="https://img.shields.io/badge/iOS-15.0+-865EFC.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-15.0+-F65EFC.svg" />
-    <img src="https://img.shields.io/badge/macOS-12.0+-179AC8.svg" />
-    <img src="https://img.shields.io/badge/tvOS-15.0+-41465B.svg" />
-    <img src="https://img.shields.io/badge/watchOS-8.0+-1FD67A.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.3-F06C33.svg" />
+    <img src="https://img.shields.io/badge/iOS-13.0+-865EFC.svg" />
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
-    <img src="https://github.com/CypherPoet/MyLibraryName/workflows/Build%20&%20Test/badge.svg" />
     <a href="https://github.com/apple/swift-package-manager">
       <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" />
-    </a>
-    <a href="https://twitter.com/cypher_poet">
-        <img src="https://img.shields.io/badge/Contact-@cypher_poet-lightgrey.svg?style=flat" alt="Twitter: @cypher_poet" />
     </a>
 </p>
 
 
 <p align="center">
 
-_[ A brief synopsis of this library ]._
+_[This SPM is a generic analytics module. You can simply import it and adapt to any Third-party analytics SDK]._
 
 <p />
 
+[Inspired by John Sundell's Analytics post] (https://www.swiftbysundell.com/articles/building-an-enum-based-analytics-system-in-swift/)
 
 ## Installation
 
@@ -43,7 +36,7 @@ Select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https:/
 
 ### Swift Package Manager Projects
 
-You can add `MyPackageName` as a package dependency in your `Package.swift` file:
+You can add `Tyka` as a package dependency in your `Package.swift` file:
 
 ```swift
 let package = Package(
@@ -52,7 +45,7 @@ let package = Package(
         .package(
             name: "Tyka",
             url: "https://github.com/carloshmartins/tyka",
-            .exact("0.0.1")
+            .exact("1.0.0")
         ),
     ],
     //...
